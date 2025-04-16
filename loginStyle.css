@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    animation: fadeIn 1s ease;
+  }
+  
+  body, html {
+    height: 100%;
+    background-color: #fffafa;
+  }
+  
+  .login {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-image {
+    flex: 0.6;
+    background: url('IMG/bahay\ cover\ page.jpg') center center/cover no-repeat;
+  }
+
+  .logo{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    
+  }
+.logo h1{
+  margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #f3f3f0;
+  }
+  .logo img{
+  margin-left: 20px;
+    width: 80px;
+    height: 80px;
+  }
+
+  .quote {
+    margin-top: 10px;
+    margin-left: 50px;
+    bottom: 20px;
+    left: 20px;
+    color:  #f3f3f0;
+    font-size: 1.2rem;
+    line-height:46px;
+   
+  }
+  
+  .form {
+    flex: 0.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    animation: fadeIn 1s ease;
+  }
+  
+  .form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form input[type="email"],
+  .form input[type="password"] {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form button {
+    padding: 12px 15px;
+    background-color: rgb(119, 152, 140);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .form button:hover {
+    background-color:rgb(53, 71, 65);
+  }
+  
+  .forgot-password {
+    font-size: 0.8rem;
+    text-align: right;
+    margin-right: 35px;
+    width: 100%;
+  }
+  
+  .links {
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: rgb(119, 152, 140);
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

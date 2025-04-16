@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <title>RentEasy</title>
+</head>
+
+<body>
+
+  <div id="top"></div>
+
+  <header>
+    <div class="logo"><img src="IMG/logo green.png" alt="logo">
+      <h1>RentEasy</h1>
+    </div>
+    
+    <nav>
+
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#browse">Browse Listings</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#post">Post a Property</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="login-signup">
+      <button class="btn1"><a href="login.html">Log in</a></button>
+      <button class="btn2"><a href="signup.html">Sign up</a></button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="image-container">
+        <img src="IMG/bahay cover page.jpg" alt="house cover page">
+        <div class="overlay-text">
+          With <br>
+         <i>RentEasy,</i><br>
+          finding the <br>
+          perfect <br>
+          place has <br>
+          never been <br>
+          easier
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works">
+      <section class="how-it-works">
+        <h2>How <strong>RentEasy</strong> Works</h2>
+        <div class="features">
+          <div class="feature-box">
+            <div class="icon">🏠</div>
+            <h3>Browse Listings</h3>
+            <p>Search verified properties across cities.</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">📱</div>
+            <h3>Contact Landlords</h3>
+            <p>Message property owners directly.</p>
+          </div>
+          <div class="feature-box">
+            <div class="icon">✅</div>
+            <h3>Rent with Confidence</h3>
+            <p>Secure your new home seamlessly.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="browse">
+      <div class="container property-filters shadow-sm p-3 rounded bg-white mt-3 mb-4">
+        <div class="row gy-2 gx-2 align-items-center">
+          
+          <div class="col-auto">
+            <div class="btn-group" role="group" aria-label="Property type">
+              <input type="radio" class="btn-check" name="propertyType" id="house" autocomplete="off" checked>
+              <label class="btn btn-outline-success" for="house">House</label>
+      
+              <input type="radio" class="btn-check" name="propertyType" id="apartment" autocomplete="off">
+              <label class="btn btn-outline-success" for="apartment">Apartment</label>
+      
+              <input type="radio" class="btn-check" name="propertyType" id="dormitory" autocomplete="off">
+              <label class="btn btn-outline-success" for="dormitory">Dormitory</label>
+            </div>
+          </div>
+      
+          <div class="col-sm">
+            <input type="text" class="form-control" placeholder="Zamboanga City">
+          </div>
+      
+          <div class="col-sm">
+            <input type="text" class="form-control" placeholder="Minimalist">
+          </div>
+      
+          <div class="col-sm">
+            <select class="form-select">
+              <option selected>₱10,000 - ₱100,000</option>
+              <option>₱100,000 - ₱200,000</option>
+            </select>
+          </div>
+      
+          <div class="col-auto">
+            <button class="btn btn-success px-4">Search</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-4">
+        <h3 class="fw-bold mb-4">Check Out Our Listings!</h3>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IMG/bahay1.jpg" class="card-img-top" alt="Listing 1">
+              <div class="card-body">
+                <h5 class="card-title">Sta. Maria, Zamboanga City</h5>
+                <p><i class="fa-solid fa-location-dot me-1"></i>54+ Places &nbsp; ⭐ 4.2 (13 Reviews)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IMG/bahay2.jpg" class="card-img-top" alt="Listing 2">
+              <div class="card-body">
+                <h5 class="card-title">Tumaga, Zamboanga City</h5>
+                <p><i class="fa-solid fa-location-dot me-1"></i>50+ Places &nbsp; ⭐ 4.2 (13 Reviews)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img src="IMG/bahay 3.jpg" class="card-img-top" alt="Listing 3">
+              <div class="card-body">
+                <h5 class="card-title">Divisoria, Zamboanga City</h5>
+                <p><i class="fa-solid fa-location-dot me-1"></i>60+ Places &nbsp; ⭐ 4.0 (13 Reviews)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <div class="container my-5">
+        <div class="hero-section d-flex shadow">
+          <div class="left-col">
+            <div class="watch-tour">
+              <i class="bi bi-play-circle-fill"></i>
+              <div>
+                <strong>View House Tour</strong><br>
+                <small class="text-primary"><a href="videox">Watch Video →</a></small>
+              </div>
+            </div>
+      
+            <div class="mini-card">
+              <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Minimalist House">
+              <div class="mini-card-body">
+                <p><strong>Minimalist House</strong></p>
+                <p class="text-muted mb-1"><i class="bi bi-geo-alt"></i> Divisoria, Zamboanga City</p>
+                <p class="text-primary"><a href="house">View House →</a></p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="right-col">
+            <h1>Renting made easy, Living made better</span></h1>
+            <p>We guarantee that the products we sell will make our customers happy</p>
+      
+            <div class="mb-4">
+              <div class="stats">10K+</div>
+              <div class="text-muted">Happy customers with our service</div>
+            </div>
+      
+            <div class="mb-4">
+              <div class="stats">24K+</div>
+              <div class="text-muted">The best property we provide</div>
+            </div>
+      
+            <div class="mb-4">
+              <div class="stats">45+</div>
+              <div class="text-muted">Company affiliated with us</div>
+            </div>
+      
+            <button class="btn btn-success">See More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="section-title">Popular Deals</h2>
+          <div class="btn-wrapper">
+            <button class="arrow-btn" id="prevBtn" aria-label="Previous">
+              <i class="fa fa-chevron-left"></i>
+            </button>
+            <button class="arrow-btn" id="nextBtn" aria-label="Next">
+              <i class="fa fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="row" id="propertyList">
+        </div>
+      </div>
+
+    </section>
+
+    <section id="post">
+
+    </section>
+
+    <section id="about">
+      <!-- About RentEasy -->
+    </section>
+
+    <section id="contact">
+      <!-- Contact form natnin-->
+    </section>
+
+  </main>
+
+  <footer>
+
+  </footer>
+  <script src="SCRIPTS/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+
+</html>
